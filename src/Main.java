@@ -23,6 +23,6 @@ public class Main {
             JOptionPane.showMessageDialog(null, "Edad: " + persona.getEdad());
 
         }
-//no jala martaa
+//ya jala martaa
     }
 
