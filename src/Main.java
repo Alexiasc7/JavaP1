@@ -1,4 +1,4 @@
-import org.w3c.dom.ls.LSOutput;
+
 
 import javax.swing.JOptionPane;
 public class Main {
@@ -23,6 +23,6 @@ public class Main {
             JOptionPane.showMessageDialog(null, "Edad: " + persona.getEdad());
 
         }
-//no jala martaa
+//no jala martaaa
     }
 
