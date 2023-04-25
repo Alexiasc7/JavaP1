@@ -1,9 +1,9 @@
 
-//practicas sencillas Java
-
+//--practicas sencillas Java--//
 public class Main {
+
     public static void main(String[] args) {
-           /* Uso de las sentencias if, else if
+/*-- Uso de las sentencias if, else if--//
             String nombre = JOptionPane.showInputDialog("Escribe tu nombre:");
             String nacionalidad = JOptionPane.showInputDialog("Escribe tu nacionalidad");
             String altura = JOptionPane.showInputDialog("Escribe tu altura");
@@ -23,7 +23,7 @@ public class Main {
             JOptionPane.showMessageDialog(null, "Altura: " + persona.getAltura());
             JOptionPane.showMessageDialog(null, "Edad: " + persona.getEdad());*/
 
-            /*Uso de las sentencias switch
+/*--Uso de las sentencias switch--//
 
             String eleccion = JOptionPane.showInputDialog("selecciona un numero de mes");
             int elec = Integer.parseInt(eleccion);
@@ -93,7 +93,63 @@ public class Main {
 
         System.out.println("Hola,eres " + genero + " de " + edad + " años ");
     */
+        /* int i=0; //uso de while
+    while(i<100){
+        System.out.println("el  valor de i es:" +i);
+            i =i+1;
+    }
+    System.out.println("Terminacion del ciclo");
 
+//--Uso de sentencia do while--//
+
+        Scanner teclado=new Scanner(System.in);
+        int valor;
+        do {
+            System.out.print("Ingrese un valor entre 0 y 999 (0 finaliza):");
+            valor = teclado.nextInt();
+            if (valor>=100) {
+                System.out.println("Tiene 3 dígitos.");
+            } else {
+                if (valor>=10) {
+                    System.out.println("Tiene 2 dígitos.");
+                } else {
+                    System.out.println("Tiene 1 dígito.");
+                }
+            }
+        } while (valor!=0);
+        //Uso del for(inicializador;condicion;incremento){}
+        for(int i = 0; i <=10; i++){
+            System.out.println("El valor de i es: "+ i);
+        }
+
+//--Uso de la sentencia Break--//
+
+        int cuenta; //La variable de control tambiénse usa cuando termina el ciclo
+
+        for(cuenta = 1; cuenta <= 10; cuenta++ ) //itera 10 veces
+        {
+            if (cuenta == 5) //Si cuenta es igual a 5
+            {
+                break; //Termina el ciclo
+            }
+
+            System.out.println("Cuenta es: " + cuenta);
+        }// fin del for
+        System.out.println("Salio del ciclo en cuenta = " + cuenta);
+
+//--Uso de sentencia continue--//
+
+        for (int cuenta = 1; cuenta <= 10; cuenta++) {
+            if(cuenta == 5) { //Si cuenta es cinco
+                continue;  //omite el resto del código en el ciclo
+            }
+            if(cuenta == 6){
+                continue;
+            }
+            System.out.println("La cuenta es: " + cuenta);
+            System.out.println("Impresion después del valor");
+        }
+        System.out.println("Se uso continue para omitir imprimir el 5 y 6");*/
     }
 }
 
