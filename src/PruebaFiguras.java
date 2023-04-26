@@ -1,4 +1,4 @@
-import javax.swing.JFrame;
+/*import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
 public class PruebaFiguras {
@@ -19,6 +19,7 @@ public class PruebaFiguras {
         ventana.setSize(300, 300);
         ventana.setVisible(true);
 
+
     }
 
-}
+}*/
