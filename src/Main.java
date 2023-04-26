@@ -1,9 +1,9 @@
 
-//--practicas sencillas Java--//
-public class Main {
+//--practicas sentencias en Java--//
+/*public class Main {
 
     public static void main(String[] args) {
-/*-- Uso de las sentencias if, else if--//
+-- Uso de las sentencias if, else if--//
             String nombre = JOptionPane.showInputDialog("Escribe tu nombre:");
             String nacionalidad = JOptionPane.showInputDialog("Escribe tu nacionalidad");
             String altura = JOptionPane.showInputDialog("Escribe tu altura");
@@ -149,7 +149,7 @@ public class Main {
             System.out.println("La cuenta es: " + cuenta);
             System.out.println("Impresion después del valor");
         }
-        System.out.println("Se uso continue para omitir imprimir el 5 y 6");*/
+        System.out.println("Se uso continue para omitir imprimir el 5 y 6");
     }
-}
+}*/
 
