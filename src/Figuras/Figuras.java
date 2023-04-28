@@ -1,3 +1,5 @@
+package Figuras;
+
 import java.awt.Graphics;
 import javax.swing.JPanel;
 
@@ -9,7 +11,7 @@ public class Figuras extends JPanel{
 
         opcion = opcionUsuario;
 
-    }//Fin del constructor Figuras
+    }//Fin del constructor Figuras.Figuras
 
     //Este método dibuja una cascada de figuras, empezando desde la esquina superior izquierda.
     public void paintComponent (Graphics g){

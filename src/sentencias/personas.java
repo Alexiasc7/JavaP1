@@ -1,3 +1,5 @@
+package sentencias;
+
 import javax.swing.JOptionPane;
 public class personas {
     private String nombre;

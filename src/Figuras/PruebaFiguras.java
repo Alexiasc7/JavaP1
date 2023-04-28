@@ -10,7 +10,7 @@ public class PruebaFiguras {
 
         int opcion = Integer.parseInt(entrada);
 
-        Figuras fig = new Figuras(opcion);
+        Figuras.Figuras fig = new Figuras.Figuras(opcion);
 
         JFrame ventana = new JFrame();
 

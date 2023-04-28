@@ -12,7 +12,7 @@
             double alt = Double.parseDouble(altura);
             int edadPersona = Integer.parseInt(edad);
 
-            personas persona = new personas(); //objeto de la clase personas
+            sentencias.personas persona = new sentencias.personas(); //objeto de la clase sentencias.personas
             persona.setNombre(nombre); //objeto y lo que reresa de la clase y el parametro
             persona.setNacionalidad(nacionalidad);
             persona.setAltura(alt);
